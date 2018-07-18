@@ -29,7 +29,7 @@ public class StudentController {
 
     @RequestMapping("/getStudentName")
     public ModelAndView getStudentName(ModelAndView mv, @RequestParam String id) {
-        mv.setViewName("index");
+        mv.setViewName("index11");
         return mv;
     }
 }
